@@ -1,0 +1,6 @@
+<meta>
+    <!--
+        @bekiroj Aim Sync
+    -->
+    <script src="aim.lua" type="client" cache="false" />
+</meta>
