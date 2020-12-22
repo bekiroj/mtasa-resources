@@ -44,8 +44,8 @@ addEventHandler("onClientRender", root,
     function()
     	if getElementData(localPlayer, "dead") == 1 then
     		local scrWidth, scrHeight = guiGetScreenSize()
-			dxDrawText(""..time.."", 1, 1, scrWidth, scrHeight, tocolor(0, 0, 0), 1, "default-bold", "center", "bottom")
-			dxDrawText(""..time.."", 0, 0, scrWidth, scrHeight, tocolor(255, 255, 255), 1, "default-bold", "center", "bottom")
+			dxDrawText("Time: "..time.."", 1, 1, scrWidth, scrHeight - 20, tocolor(0, 0, 0), 1, "default-bold", "center", "bottom")
+			dxDrawText("Time: "..time.."", 0, 0, scrWidth, scrHeight - 20, tocolor(255, 255, 255), 1, "default-bold", "center", "bottom")
     	end
     end
 )
