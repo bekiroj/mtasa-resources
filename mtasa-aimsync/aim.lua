@@ -1,7 +1,7 @@
 aimfps = 60
 maxfps = 100
 
-function aimSync(target)
+function aimSync()
 	if isPedAiming(getLocalPlayer()) then
 		setGameSpeed(1.25)
 		setFPSLimit(aimfps)
