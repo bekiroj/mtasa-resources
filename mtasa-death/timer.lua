@@ -5,7 +5,7 @@ addEventHandler("wastedtime",root,function()
 	time = 200
 	timer = setTimer(function ()
 	time = time - 1
-	setElementData(localPlayer, "dead_time", time)
+	--setElementData(localPlayer, "dead_time", time)
 
 	if time >= 0 then
 		setTimer ( function()
