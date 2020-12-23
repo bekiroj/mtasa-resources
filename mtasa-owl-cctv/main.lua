@@ -68,3 +68,11 @@ function roundedRectangle(x, y, w, h, borderColor, bgColor, postGUI)
 		dxDrawRectangle(x + w, y + 2, 1, h - 4, borderColor, postGUI);
 	end
 end
+
+function camMatrix()
+	if exports.integration:isPlayerTrialAdmin(localPlayer) then
+		local x, y, z, lx, ly, lz = getCameraMatrix ()
+		outputChatBox(""..x..", "..y..", "..z..", "..lx..", "..ly..", "..lz.."")
+	end
+end
+addCommandHandler("cammatrix",camMatrix)
