@@ -10,4 +10,6 @@
 	<file src="components/fonts/Roboto.ttf" />
     	<file src="components/img/next.png" />
     	<file src="components/img/back.png" />
+	<file src="components/img/nexthover.png" />
+    	<file src="components/img/backhover.png" />
 </meta>
