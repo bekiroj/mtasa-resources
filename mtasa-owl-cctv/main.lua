@@ -1,3 +1,4 @@
+-- // bekiroj
 sx, sy = guiGetScreenSize()
 posX,posY = sx-370,30
 font = dxCreateFont("components/fonts/Roboto.ttf", 10)
