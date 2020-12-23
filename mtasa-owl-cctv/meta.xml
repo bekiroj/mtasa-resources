@@ -1,6 +1,7 @@
 <meta>
 	<!--
         	@bekiroj Owl CCTV
+		Not the full version
     	-->
 	
 	<script src="events.lua" type="client" cache="false"/>
