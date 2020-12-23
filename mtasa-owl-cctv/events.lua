@@ -49,3 +49,23 @@ addEventHandler("onClientGUIClick",root,function()
 		nextCam(camcount)
 	end
 end)
+
+addEventHandler( "onClientMouseEnter", resourceRoot, 
+	function()
+		if source == nextbt then
+			guiStaticImageLoadImage ( source, "components/img/nexthover.png" )
+		elseif source == backbt then
+			guiStaticImageLoadImage ( source, "components/img/backhover.png" )
+		end
+	end
+)
+
+addEventHandler( "onClientMouseLeave", resourceRoot, 
+	function()
+		if source == nextbt then
+			guiStaticImageLoadImage ( source, "components/img/next.png" )
+		elseif source == backbt then
+			guiStaticImageLoadImage ( source, "components/img/back.png" )
+		end
+	end
+)
