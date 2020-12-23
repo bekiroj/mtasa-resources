@@ -1,6 +1,6 @@
 <meta>
 	<!--
-        @bekiroj Owl CCTV
+        	@bekiroj Owl CCTV
     	-->
 	
 	<script src="events.lua" type="client" cache="false"/>
