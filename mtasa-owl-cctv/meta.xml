@@ -4,7 +4,7 @@
     	-->
 	
 	<script src="events.lua" type="client" cache="false"/>
-	<script src="core.lua" type="server"/>
+	<script src="command.lua" type="server"/>
 	<script src="main.lua" type="client"/>
 
 	<file src="components/fonts/Roboto.ttf" />
