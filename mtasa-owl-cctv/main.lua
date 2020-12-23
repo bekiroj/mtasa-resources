@@ -5,7 +5,7 @@ font = dxCreateFont("components/fonts/Roboto.ttf", 10)
 nextbt = guiCreateStaticImage(posX+260,posY+355, 30, 30, "components/img/next.png", false)
 backbt = guiCreateStaticImage(posX+180,posY+355, 30, 30, "components/img/back.png", false)
 camcount = 0
-cctvlocation = ""
+cctvlocation = "Unknown"
 
 function nextCam(cam)
 	nextLocation(cam)
