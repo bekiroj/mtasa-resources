@@ -1,12 +1,12 @@
-local alan = createColSphere(1890.3955078125, -1755.38671875, 13.3828125, 2)
-setElementInterior(alan, 0)
-setElementDimension(alan, 0)
+local region = createColSphere(1890.3955078125, -1755.38671875, 13.3828125, 2)
+setElementInterior(region, 0)
+setElementDimension(region, 0)
 
 addCommandHandler("cctv",
 	function(source, cmd)
 		if getElementData(source, "loggedin") == 1 then
 			if getElementData(source, "faction") == 1 or getElementData(source, "faction") == 6 then
-				if isElementWithinColShape(source, alan) then
+				if isElementWithinColShape(source, region) then
 					if not getElementData(source, "cctv") then
 						lastint = getElementInterior(source)
 						lastdim = getElementDimension(source)
